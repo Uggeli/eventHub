@@ -127,7 +127,3 @@ int main() {
 3. Design listeners to handle specific event types efficiently.
 4. Regularly call `EventHub::update()` to process and expire events.
 5. Use the Logger for system-wide logging with appropriate log levels.
-
-## Conclusion
-
-This Event System provides a flexible and extensible way to implement event-driven architecture in your C++ applications. By decoupling components through events, it promotes modularity and easier maintenance of complex systems.
